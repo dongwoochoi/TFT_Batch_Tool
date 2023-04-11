@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Nav from './tool/nav/nav';
+import List from './tool/list/list';
+import Batch from './tool/batch/batch';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav></Nav>
+      <div className="content">
+        <div className="main_container">
+          <div className="line1">
+            
+          </div>
+          <div className="line2">
+            <Batch></Batch>
+            <List></List>
+          </div>
+          <div className="line3">
+
+          </div>
+          
+        </div>
+      
+      </div>
+      
     </div>
   );
 }

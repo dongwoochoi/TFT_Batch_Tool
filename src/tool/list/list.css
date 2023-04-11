@@ -1,0 +1,35 @@
+.list_main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.list_container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.champion > img{
+    width: 56px;
+    height: 56px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+
+.champion{
+    width: 66px;
+    height: 66px;
+}
+
+.list_selecter{
+    background: wheat;
+    height: 44px;
+    padding: 8px;
+    width: 100%;
+}
