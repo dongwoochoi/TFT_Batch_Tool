@@ -22,6 +22,16 @@
     margin: 5px;
 }
 
+.champion_info{
+    position: absolute;
+    background: rgb(79, 79, 79);
+    width: 300px;
+    height: 400px;
+    display: none;
+    flex-direction: column;
+    color: white;
+}
+
 .champion{
     width: 66px;
     height: 66px;
