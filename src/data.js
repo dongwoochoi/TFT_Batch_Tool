@@ -18,7 +18,7 @@ let Champions = [
       img : process.env.PUBLIC_URL + 'champion/Garen.png',
       name : "가렌",
       cost : 4,
-      line : "메카:프레임",
+      line : "메카:프라임",
       job : ["엄호대"],
       attack_range : 1,
       skill : "메카의 응징",

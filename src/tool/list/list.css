@@ -3,6 +3,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    background: #6a6a6a;
 }
 
 .list_container{
@@ -38,7 +39,7 @@
 }
 
 .list_selecter{
-    background: wheat;
+    background: #6a6a6a;
     height: 44px;
     padding: 8px;
     width: 100%;

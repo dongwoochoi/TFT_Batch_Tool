@@ -10,17 +10,17 @@
 }
 
 .line1{
-    background: sandybrown;
+    background: #222;;
     width: 170px;
     height: 1000px;
 }
 
 .line2{
-
+    width: 658px;
 }
 
 .line3{
-    background: sandybrown;
+    background: #222;;
     width: 270px;
     height: 1000px;
 }

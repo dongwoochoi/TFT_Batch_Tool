@@ -33,7 +33,7 @@ function List(){
                 {
                     Champions.map(function(a, i){
                         return(
-                            <div className="champion">
+                            <div className="champion" key={i}>
                                 <img draggable onMouseEnter={(e)=>{handleMouseEnter(e,i)}} onMouseLeave={(e)=>{handleMouseLeave(e,i)}} onDragStart={ (e) => handleDragStart(e, Champions[i])} src={Champions[i].img} alt="a"></img>
                                 {
                                     isHovered[i] == true ? <div className={"champion_info " + "c"+i} style={divStyle}>
