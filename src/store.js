@@ -5,12 +5,21 @@ let In = createSlice({
     name : 'In',
     initialState : [],
     reducers : {
-        input: (state, action) => {
+          input: (state, action) => {
             const { data, i } = action.payload;
             var in_data = {};
             in_data[i] = data;
             state.push(in_data);
-          }
+          },
+
+          delete1: (state, action) => {
+            const { data, i } = action.payload;
+            for(var a = 0; a < state.length; a++){
+              if(Object.keys(state[a]) == i){
+                state.splice(a,1)
+              }
+            }
+          },
       }
   })
 
@@ -20,4 +29,4 @@ export default configureStore({
   }
 })
 
-export let {input} = In.actions
+export let { input, delete1} = In.actions

@@ -10,14 +10,17 @@ function Synergy(){
 
     useEffect(() => {
         const copy = Object.assign({}, line)
+        console.log(a.In)
         for(var i = 0; i < a.In.length; i++){
             if(i > 0){
                 for(var j in line){
-                    if(a.In[i][Object.keys(a.In[i])][Object.keys(a.In[i])].line == j ){
+                    if(a.In[i][Object.keys(a.In[i])][Object.keys(a.In[i])][Object.keys(a.In[i])].line == j ){
                         copy[j] = copy[j] + 1;
                         set_cline(copy)
                     }
                 }
+            }else{
+                set_cline(line)
             }
         }
       }, [a]);
