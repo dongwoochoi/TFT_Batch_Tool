@@ -157,6 +157,125 @@ let Champions = [
       demage : ["체력 증가량 : 200 / 250 / 300"],
     },
 
+    {
+      img : process.env.PUBLIC_URL + 'champion/Leona.jpg',
+      name : "레오나",
+      cost : 5,
+      line : "메카:프라임",
+      job : ["무법자", "방패대"],
+      attack_range : 1,
+      skill : "최후의 보루",
+      mana : "0/75",
+      skill_effect : ["레오나가 대상을 조준한 뒤, 궤도형 레이저 공격을 지시합니다. 레이저는 대상이 사망할 때까지 초당 고정 피해를 입히고, 주변 적들에게 마법 피해를 입힙니다."],
+      demage : ["초당 최대 체력 감소 : 350 / 525 / 5000","피해량 : 320 / 480 / 2000"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Rell.jpg',
+      name : "렐",
+      cost : 2,
+      line : "별수호자",
+      job : ["엄호대"],
+      attack_range : 1,
+      skill : "강철의 결속",
+      mana : "80/150",
+      skill_effect : ["체력 비율이 가장 낮은 아군과 렐을 잇는 사슬을 생성해 둘 사이에 있는 적 모두에게 마법 피해를 입힙니다. 해당 아군과 렐이 4초 동안 렐의 현재 방어력 및 마법 저항력의 일부를 얻습니다."],
+      demage : ["방어력 및 마법 저항력 % : 50% / 60% / 70%","피해량 : 140 / 210 / 325"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Lucian.png',
+      name : "루시안",
+      cost : 1,
+      line : "무한대팀",
+      job : ["무법자", "속사단"],
+      attack_range : 4,
+      skill : "시공간 폭격",
+      mana : "0/40",
+      skill_effect : ["기본 지속 효과: 루시안의 기본 공격이 추가 마법 피해를 입힙니다.", "사용 시: 루시안이 대상 방향으로 탄환을 4발 사격합니다. 각 탄환은 처음으로 적중하는 적에게 피해를 입힙니다."],
+      demage : ["기본 공격 추가 마법 피해량 : 20 / 30 / 45","피해량 : 140 / 210 / 325"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Lulu.jpg',
+      name : "룰루",
+      cost : 1,
+      line : "기계유망주",
+      job : ["선의"],
+      attack_range : 4,
+      skill : "반짝반짝 창",
+      mana : "0/50",
+      skill_effect : ["룰루가 대상에게 마법 화살을 발사해 처음 적중하는 적과 그 뒤에 있는 적에게 마법 피해를 입힙니다."],
+      demage : ["피해량 : 270 / 405 / 605","2차 피해량 : 135 / 205 / 305"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Leblanc.jpg',
+      name : "르블랑",
+      cost : 3,
+      line : "자동방어체계",
+      job : ["주문투척자", "해커"],
+      attack_range : 4,
+      skill : "악의의 인장",
+      mana : "0/60",
+      skill_effect : ["르블랑이 대상에게 5개의 인장을 발사해 마법 피해를 입힙니다. 대상이 사망하면 가장 가까운 적에게 남은 인장과 추가로 1개의 인장을 발사합니다."],
+      demage : ["피해량 : 75 / 110 / 135","인장 수 : 6 / 6 / 8"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/LeeSin.jpg',
+      name : "리신",
+      cost : 2,
+      line : "우세",
+      job : ["선의", "싸움꾼"],
+      attack_range : 4,
+      skill : "악의의 인장",
+      mana : "0/60",
+      skill_effect : ["르블랑이 대상에게 5개의 인장을 발사해 마법 피해를 입힙니다. 대상이 사망하면 가장 가까운 적에게 남은 인장과 추가로 1개의 인장을 발사합니다."],
+      demage : ["피해량 : 75 / 110 / 135","인장 수 : 6 / 6 / 8"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Riven.jpg',
+      name : "리븐",
+      cost : 3,
+      line : "동물특공대",
+      job : ["엄호대", "싸움꾼"],
+      attack_range : 1,
+      skill : "토끼 검술",
+      mana : "30/90",
+      skill_effect : ["리븐이 4초 동안 지속되는 보호막을 얻고, 다음 3회의 공격을 강화하여 추가 마법 피해를 입힙니다. 리븐이 대상의 체력보다 많다면 추가 마법 피해량이 100% 증가합니다."],
+      demage : ["보호막 흡수량 : 325 / 400 / 500","피해량 : 90 / 135 / 225"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Malphite.jpg',
+      name : "말파이트",
+      cost : 2,
+      line : "우세",
+      job : ["마스코트"],
+      attack_range : 1,
+      skill : "지면 강타",
+      mana : "40/80",
+      skill_effect : ["말파이트가 지면을 강타해 근처 적들에게 마법 피해를 입히고, 4초 동안 방어력을 얻습니다."],
+      demage : ["피해량 : 150 / 225 / 350","방어력 : 100 / 125 / 150"],
+    },
+
+    {
+      img : process.env.PUBLIC_URL + 'champion/Mordekaiser.jpg',
+      name : "모데카이저",
+      cost : 5,
+      line : "레이저단",
+      job : ["에이스"],
+      attack_range : 1,
+      skill : "스카이라인",
+      mana : "60/150",
+      skill_effect : ["모데카이저가 잠시 동안 결투장을 자신의 영역으로 이동시켜 모든 적을 약화시킵니다. 이후 결투장에 건물을 소환해 떨어뜨려 적중하는 모든 적에게 마법 피해를 입힙니다."],
+      demage : ["피해량 : 420 / 630 / 5555","마법 저항력 감소 : 50% / 50% / 69%","지속 시간 : 4 / 4 / 6"],
+    },
+
+
+
   ] 
 
 export default Champions;

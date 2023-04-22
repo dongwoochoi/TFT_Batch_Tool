@@ -36,7 +36,11 @@ function Batch() {
     const copy2 = [...data];
     copy2[i] = {[i] : {}};
     set_data(copy2)
-    
+    if(delete_i == i){
+      dispatch(delete1({ i: i, data: data }))
+    }else{
+      set_delete_i(i);
+    }
   };
 
    const handleInDragStart = (event , i) => {

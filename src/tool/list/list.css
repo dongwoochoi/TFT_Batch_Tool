@@ -39,6 +39,10 @@
 }
 
 .list_selecter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background: #6a6a6a;    
     height: 44px;
     padding: 8px;

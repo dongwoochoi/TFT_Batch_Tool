@@ -27,6 +27,21 @@ function List(){
     return(
         <div className="list_main">
             <div className="list_selecter">
+                <div className="tab1">
+                    이름순
+                </div>
+                <div className="tab2">
+                    가격순
+                </div>
+                <div className="tab3">
+                    직업순
+                </div>
+                <div className="tab4">
+                    계열순
+                </div>
+                <input className="champion_search">
+
+                </input>
 
             </div>
             <div className="list_container">
